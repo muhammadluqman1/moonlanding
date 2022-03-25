@@ -1,0 +1,268 @@
+@tailwind base;
+
+/* Write your own custom base styles here */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* #hero {
+  background: url('');
+  background-size: cover;
+  background-position: center;
+} */
+
+.press-slider .image-gallery-bullets {
+  bottom: -40px;
+}
+.press-slider .image-gallery-content .image-gallery-slide .image-gallery-image {
+  max-height: 364px;
+}
+
+ul li {
+  @apply list-disc list-inside ml-2;
+}
+
+p {
+  margin-bottom: 10px !important;
+}
+
+li strong {
+  @apply font-normal;
+  color: #de0064;
+}
+
+li em {
+  @apply font-normal;
+  font-style: normal;
+  color: #50b286;
+}
+
+/* Video player styles */
+.video-react {
+  height: 100% !important;
+  padding-top: 0 !important;
+}
+.video-react-video {
+  object-fit: cover !important;
+}
+.video-react-control-bar {
+  display: none !important;
+}
+
+/* Slick Styles */
+.slick-dots {
+  position: unset !important;
+  bottom: unset !important;
+  text-align: center !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: auto !important;
+}
+@media screen and (min-width: 768px) {
+  .slick-dots {
+    margin-left: 13rem !important;
+    text-align: left !important;
+  }
+}
+.slick-dots li button::before {
+  font-size: 17px !important;
+  color: #022840 !important;
+  opacity: 0.2 !important;
+}
+.slick-dots li.slick-active button::before {
+  opacity: 1 !important;
+  color: #022840 !important;
+}
+
+@keyframes modal-video {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes modal-video-inner {
+  from {
+    transform: translate(0, 100px);
+  }
+  to {
+    transform: translate(0, 0);
+  }
+}
+.modal-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1000000;
+  cursor: pointer;
+  opacity: 1;
+  animation-timing-function: ease-out;
+  animation-duration: 0.3s;
+  animation-name: modal-video;
+  -webkit-transition: opacity 0.3s ease-out;
+  -moz-transition: opacity 0.3s ease-out;
+  -ms-transition: opacity 0.3s ease-out;
+  -o-transition: opacity 0.3s ease-out;
+  transition: opacity 0.3s ease-out;
+}
+.modal-video-effect-exit {
+  opacity: 0;
+}
+.modal-video-effect-exit .modal-video-movie-wrap {
+  -webkit-transform: translate(0, 100px);
+  -moz-transform: translate(0, 100px);
+  -ms-transform: translate(0, 100px);
+  -o-transform: translate(0, 100px);
+  transform: translate(0, 100px);
+}
+.modal-video-body {
+  max-width: 940px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  display: table;
+}
+.modal-video-inner {
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  height: 100%;
+}
+.modal-video-movie-wrap {
+  width: 100%;
+  height: 0;
+  position: relative;
+  padding-bottom: 56.25%;
+  background-color: #333;
+  animation-timing-function: ease-out;
+  animation-duration: 0.3s;
+  animation-name: modal-video-inner;
+  -webkit-transform: translate(0, 0);
+  -moz-transform: translate(0, 0);
+  -ms-transform: translate(0, 0);
+  -o-transform: translate(0, 0);
+  transform: translate(0, 0);
+  -webkit-transition: -webkit-transform 0.3s ease-out;
+  -moz-transition: -moz-transform 0.3s ease-out;
+  -ms-transition: -ms-transform 0.3s ease-out;
+  -o-transition: -o-transform 0.3s ease-out;
+  transition: transform 0.3s ease-out;
+}
+.modal-video-movie-wrap iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.modal-video-close-btn {
+  position: absolute;
+  z-index: 2;
+  top: -35px;
+  right: -35px;
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  overflow: hidden;
+  border: none;
+  background: transparent;
+}
+.modal-video-close-btn:before {
+  transform: rotate(45deg);
+}
+.modal-video-close-btn:after {
+  transform: rotate(-45deg);
+}
+.modal-video-close-btn:before,
+.modal-video-close-btn:after {
+  content: '';
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  margin-top: -1px;
+  background: #fff;
+  border-radius: 5px;
+  margin-top: -6px;
+}
+
+/* Write your own custom component styles here */
+.education-body strong {
+  @apply text-primary-1;
+}
+.section-header-body a {
+  @apply text-primary-1 underline hover:text-primary-1-600 transition-colors duration-100;
+}
+
+.image-gallery-bullets .image-gallery-bullet {
+  background-color: #acacac !important;
+  border: unset !important;
+  box-shadow: unset !important;
+  padding: 8px !important;
+  transition: all 250ms ease;
+}
+
+.image-gallery-bullets .image-gallery-bullet.active {
+  background-color: #000000 !important;
+}
+
+.image-gallery-custom-right-nav {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  z-index: 999999;
+  background-image: url('/right-nav.svg');
+  height: 50px;
+  width: 50px;
+}
+.image-gallery-custom-left-nav {
+  position: absolute;
+  top: 50%;
+  left: 15px;
+  z-index: 999999;
+  background-image: url('/left-nav.svg');
+  height: 50px;
+  width: 50px;
+}
+
+.rounded-hero-content::before {
+  content: '';
+  background-color: white;
+  position: absolute;
+  min-height: 2rem;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: -70%;
+  right: -80px;
+  left: -100%;
+  z-index: -1;
+  border-radius: 50%;
+  height: 180%;
+}
+
+.rounded-hero-content-mobile::before {
+  content: '';
+  background-color: white;
+  position: absolute;
+  min-height: 2rem;
+  top: 87%;
+  transform: translateY(-50%);
+  bottom: -50%;
+  right: -50%;
+  left: -50%;
+  z-index: 0;
+  border-radius: 50%;
+  height: 180%;
+}
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */

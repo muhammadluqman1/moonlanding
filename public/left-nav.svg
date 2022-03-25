@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="50px" height="50px" viewBox="0 0 50 50" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>carousel copy</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 0.839216 0 0 0 0 1.000000 0 0 0 0 0.137255 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="carousel-copy" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="path-1-link" transform="translate(25.000000, 25.000000) scale(-1, 1) rotate(-180.000000) translate(-25.000000, -25.000000) translate(0.000000, -0.000000)" fill="#4C4C4C">
+            <circle id="path-1" cx="25" cy="25" r="25"></circle>
+        </g>
+        <g id="Group" transform="translate(25.962963, 24.833333) scale(-1, 1) rotate(-180.000000) translate(-25.962963, -24.833333) translate(12.962963, 15.333333)" filter="url(#filter-1)">
+            <g transform="translate(0.000000, 0.292398)"></g>
+        </g>
+        <polygon id="Path" stroke="#FFFFFF" stroke-width="2" fill="#FFFFFF" stroke-linejoin="round" transform="translate(25.500000, 24.347668) scale(-1, 1) translate(-25.500000, -24.347668) " points="37.163474 23.8855433 28.652192 15.6559561 29.3306012 15 39 24.3493744 29.3341316 33.6953353 28.6557224 33.0393792 37.163474 24.8132054 12 24.8132054 12 23.8855433"></polygon>
+    </g>
+</svg>

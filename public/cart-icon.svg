@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="22px" viewBox="0 0 25 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>51863C21-E47C-4E6F-8705-95D92DD31E62</title>
+    <g id="Nav-V2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="D-Nav-|-Silicone-Rings-Final" transform="translate(-1327.000000, -78.000000)">
+            <g id="Cart-Icon" transform="translate(1328.000000, 79.000000)">
+                <polyline id="Path" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" points="0 0.15 4.2 0.15 6.9 15.45 21.6 15.45"></polyline>
+                <polyline id="Path" stroke="#000000" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" points="4.8 2.55 22.2 2.55 21.6 12.15 6.3 12.15"></polyline>
+                <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="7.65" cy="19.2" r="1.65"></circle>
+                <circle id="Oval" fill="#000000" fill-rule="nonzero" cx="20.55" cy="19.2" r="1.65"></circle>
+            </g>
+        </g>
+    </g>
+</svg>

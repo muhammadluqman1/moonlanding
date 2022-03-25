@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="67px" viewBox="0 0 67 67" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>noun_play_1940008</title>
+    <defs>
+        <filter id="filter-1">
+            <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Wires" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="MVP-Desktop" transform="translate(-253.000000, -5645.000000)">
+            <g id="noun_play_1940008" transform="translate(0.000000, 4510.000000)" filter="url(#filter-1)">
+                <g transform="translate(253.000000, 1135.000000)">
+                    <path d="M33.5,0 C15.0221053,0 0,15.0221053 0,33.5 C0,51.9778947 15.0221053,67 33.5,67 C51.9778947,67 67,51.9778947 67,33.5 C67,15.0221053 51.9778947,0 33.5,0 Z M44.2905263,35.1926316 L28.4926316,45.7010526 C27.1526316,46.6178947 25.3189474,45.6305263 25.3189474,44.0084211 L25.3189474,22.9915789 C25.3189474,21.3694737 27.1526316,20.3821053 28.4926316,21.2989474 L44.2905263,31.8073684 C45.4894737,32.5831579 45.4894737,34.4168421 44.2905263,35.1926316 Z" id="Shape" fill="#002842" fill-rule="nonzero"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
